@@ -1,14 +1,14 @@
 disabled = false
-locale = "en"
-lable = "Eng"
+locale = "zh"
+lable = "中文"
 weight = 1
-title = "Lunar Wisdom"
+title = "月妙圆明"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "中文"
+  isoCode = "zh"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006-1-2"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"

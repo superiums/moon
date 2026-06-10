@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "月妙圆明"
 ---
 
-Welcome to your Blowfish starter template 🚀
+在静谧的月华下，照见本心的圆满光明

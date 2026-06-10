@@ -4,7 +4,7 @@
 
 theme = "blowfish"
 baseURL = "/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -26,9 +26,13 @@ enableEmoji = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
+  # category = "categories"
   author = "authors"
   series = "series"
+  goal = "goal"
+  method = "method"
+  duration = "duration"
+  level = "level"
 
 [sitemap]
   changefreq = 'daily'
@@ -43,20 +47,24 @@ enableEmoji = true
   toLower = false
 
     [[related.indices]]
+        name = "series"
+        weight = 150
+
+    [[related.indices]]
         name = "tags"
         weight = 100
 
     [[related.indices]]
-        name = "categories"
+        name = "goal"
         weight = 100
 
     [[related.indices]]
-        name = "series"
-        weight = 50
+        name = "authors"
+        weight = 60
 
     [[related.indices]]
-        name = "authors"
-        weight = 20
+        name = "level"
+        weight = 50
 
     [[related.indices]]
         name = "date"
