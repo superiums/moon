@@ -4,13 +4,12 @@ authors:
   - beima
 date: {{ .Date }}
 goal:
-  - 减压
-  - 放松
-  - 助眠
-  - 情绪调节
-  - 专注力提升
-  - 自我觉察
-  - 正念
+  - 正念观照
+  - 光明中脉
+  - 高维链接
+  - 身心疗愈
+  - 本心回归
+  - 潜能开发
 method:
   - 正念冥想
   - 禅修
@@ -20,7 +19,6 @@ method:
   - 可视化冥想
   - 止念
   - 内观
-  - 密宗冥想
 duration:
   - 快速练习
   - 深度冥想
@@ -37,3 +35,12 @@ series: ""
 draft: false
 description: ""
 ---
+
+{{< video
+    src="mp3/{{ .Name }}.mp3"
+    caption="{{ .Name }} **beima**"
+    poster="img/moon3.webp"
+    loop=false
+    muted=false
+>}}
+
