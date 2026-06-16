@@ -1,0 +1,28 @@
+{{ $recentArticles := 5 }}
+{{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+
+{{/* 读取参数 */}}
+{{ $taxonomy := .Site.Params.homepage.taxonomy | default "goal" }}
+
+{{/* 获取 taxonomy 对象 */}}
+{{ $taxo := index .Site.Taxonomies $taxonomy }}
+
+{{/* 遍历 taxonomy 下的所有 term */}}
+{{ range $termName, $termPages := $taxo }}
+  <section class="mt-10">
+    {{/* 分组标题 */}}
+    <h2 class="text-xl font-semibold mb-4">
+      {{ $termName }}
+    </h2>
+
+    {{/* 当前 term 下的文章 */}}
+    {{ $pages := $termPages.Pages.ByWeight.Reverse }}
+
+    <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {{ range first $recentArticles $pages }}
+        {{ partial "article-link/card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+
