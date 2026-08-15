@@ -1,7 +1,7 @@
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
+#
 # The simplest menu configuration is to provide:
 #   name = The name to be displayed for this menu link
 #   pageRef = The identifier of the page or section to link to
@@ -84,31 +84,6 @@
 
 
 [[footer]]
-  name = "按目标"
-  pageRef = "goal"
+  name = "下载App"
+  pageRef = "download"
   weight = 100
-
-[[footer]]
-  name = "按方法"
-  pageRef = "method"
-  weight = 80
-
-[[footer]]
-  name = "按系列"
-  pageRef = "series"
-  weight = 40
-
-[[footer]]
-  name = "按场景"
-  pageRef = "duration"
-  weight = 60
-
-[[footer]]
-  name = "按导师"
-  pageRef = "authors"
-  weight = 20
-
-[[footer]]
-  name = "按标签"
-  pageRef = "tags"
-  weight = 20

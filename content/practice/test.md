@@ -1,5 +1,6 @@
 ---
 title: "分类法测试Test"
+draft: true
 authors:
   - st
   - beima
@@ -34,8 +35,6 @@ level:
   - 高级
   - 精进
 series: "空性系列"
-draft: false
-description: ""
 ---
 
 
@@ -78,4 +77,3 @@ description: ""
   - 精进
 
 ### series: "空性系列"
-

@@ -29,8 +29,8 @@ title: "美朵冥想"
         muted=false
     >}}
     {{< video
-        src="mp3/9分钟光明之身练习.mp3"
-        caption="9分钟光明之身练习 **beima**"
+        src="mp3/杨枝甘露净化.mp3"
+        caption="杨枝甘露净化 **beima**"
         poster="img/ai_c3.avif"
         loop=false
         muted=false
