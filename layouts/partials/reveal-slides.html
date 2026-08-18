@@ -1,0 +1,15 @@
+{{- $page := . -}}
+{{- $content := .RawContent -}}
+{{- $hSlides := split $content "\n---\n" -}}
+{{- range $hSlides -}}
+  {{- $vSlides := split . "\n--\n" -}}
+  {{- if gt (len $vSlides) 1 -}}
+  <section>
+    {{- range $vSlides -}}
+    <section>{{ $page.RenderString (trim . "\n") }}</section>
+    {{- end -}}
+  </section>
+  {{- else -}}
+  <section>{{ $page.RenderString (trim (index $vSlides 0) "\n") }}</section>
+  {{- end -}}
+{{- end -}}

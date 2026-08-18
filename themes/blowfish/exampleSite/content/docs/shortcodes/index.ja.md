@@ -91,7 +91,7 @@ Admonitions は alert ショートコードと同様の目的を持ちますが�
 > [!INFO]- 対応しているタイプ
 > 使用可能なタイプには、[GitHub alert タイプ](https://github.blog/changelog/2023-12-14-new-markdown-extension-alerts-provide-distinctive-styling-for-significant-content/) および [Obsidian callout タイプ](https://help.obsidian.md/callouts) が含まれます。タイプ名は大文字・小文字を区別しません。
 >
-> **GitHub タイプ：** `NOTE`, `TIP`, `IMPORTANT`, `WARNING`, `CAUTION`  
+> **GitHub タイプ：** `NOTE`, `TIP`, `IMPORTANT`, `WARNING`, `CAUTION`
 > **Obsidian タイプ：** `note`, `abstract`, `info`, `todo`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote`
 
 <br/><br/><br/>

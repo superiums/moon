@@ -91,7 +91,7 @@ Admonition 的用途与 alert shortcode 类似，但其实现方式是通过 Hug
 > [!INFO]- 支持的类型
 > 可用的 admonition 类型包括 [GitHub alert 类型](https://github.blog/changelog/2023-12-14-new-markdown-extension-alerts-provide-distinctive-styling-for-significant-content/) 和 [Obsidian callout 类型](https://help.obsidian.md/callouts)。类型名称不区分大小写。
 >
-> **GitHub 类型：** `NOTE`, `TIP`, `IMPORTANT`, `WARNING`, `CAUTION`  
+> **GitHub 类型：** `NOTE`, `TIP`, `IMPORTANT`, `WARNING`, `CAUTION`
 > **Obsidian 类型：** `note`, `abstract`, `info`, `todo`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote`
 
 > [!INFO]- 自定义提示框

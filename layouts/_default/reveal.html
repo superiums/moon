@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="{{ "reveal/dist/reset.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "reveal/dist/reveal.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "reveal/dist/theme/black.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "reveal/plugin/highlight/monokai.css" | relURL }}" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      {{ partial "reveal-slides.html" . }}
+    </div>
+  </div>
+
+  <script src="{{ "reveal/dist/reveal.js" | relURL }}"></script>
+  <script src="{{ "reveal/plugin/notes/notes.js" | relURL }}"></script>
+  <script src="{{ "reveal/plugin/highlight/highlight.js" | relURL }}"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealHighlight, RevealNotes ]
+    });
+  </script>
+  <style>  
+    .anchor,  
+    h1 .absolute, h2 .absolute, h3 .absolute,  
+    h1 .absolute a, h2 .absolute a, h3 .absolute a {  
+      display: none !important;  
+    }  
+  </style>
+</body>
+</html>

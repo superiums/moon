@@ -44,8 +44,8 @@ Your site will be live at: https://`<your-username>`.github.io/`<repo-name>`
 > #### Enable automatic theme updates (Optional)
 > 
 > Go to **Settings → Actions → General** and enable:
-> - [x] Read and write permissions  
-> - [x] Allow GitHub Actions to create and approve pull requests  
+> - [x] Read and write permissions
+> - [x] Allow GitHub Actions to create and approve pull requests
 > 
 > This enables [`update-blowfish.yml`](.github/workflows/update-blowfish.yml) to create Pull Requests when Blowfish updates.
 >
@@ -71,8 +71,8 @@ Your site will be live at: https://`<your-username>`.github.io/`<repo-name>`
 [![Netlify](https://img.shields.io/badge/Netlify-Ready-00C7B7?style=for-the-badge&logo=netlify)](https://blowfish-starter-template.netlify.app)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mksalada/blowfish-starter-template)
 
-1. Import your repo  
-2. Deploy  
+1. Import your repo
+2. Deploy
 
 > [!NOTE]
 > The included [`netlify.toml`](netlify.toml) handles everything automatically.
@@ -83,8 +83,8 @@ Your site will be live at: https://`<your-username>`.github.io/`<repo-name>`
 [![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=for-the-badge&logo=vercel)](https://blowfish-starter-template.vercel.app)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mksalada/blowfish-starter-template)
 
-1. Import your repo  
-2. Deploy  
+1. Import your repo
+2. Deploy
 
 > [!TIP]
 > (Optional) Add an Environment Variable:
@@ -122,12 +122,12 @@ ___
 
 This template already includes:
 - ⚙️ Pre-configured [`config/_default`](config/_default)
-- 📍 A ready homepage ([`content/_index.md`](content/_index.md))  
+- 📍 A ready homepage ([`content/_index.md`](content/_index.md))
 
 So your site:
-- ⚡️ Builds immediately  
-- 🚀 Doesn’t break on first deploy  
-- 🔧 Requires no initial setup  
+- ⚡️ Builds immediately
+- 🚀 Doesn’t break on first deploy
+- 🔧 Requires no initial setup
 
 > [!IMPORTANT]
 > - [Blowfish](https://github.com/nunocoracao/blowfish) requires **Hugo Extended** for SCSS support

@@ -91,7 +91,7 @@ function generateDirName(seed, index) {
       await fs.access(dir);
     } catch {
       await fs.mkdir(dir);
-    
+  
 
     console.log(i, user.title, dir);
     await fs.writeFile(dir + "/index.md", userMDFile);

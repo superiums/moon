@@ -22,7 +22,7 @@ description: "このページは Hugo の Blowfish テーマを利用して構�
 
 ```shell
 npx blowfish-tools
-```  
+```
 
 {{< youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" >}}
 

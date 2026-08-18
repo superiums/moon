@@ -111,7 +111,7 @@ var updateMeta = () => {
 var updateLogo = (targetAppearance) => {
   var imgElems = document.querySelectorAll("img.logo");
   var logoContainers = document.querySelectorAll("span.logo");
-  
+
   targetLogoPath = 
     targetAppearance == "{{ .Site.Params.DefaultAppearance }}" ?
     "{{ $primaryLogo.RelPermalink }}" : "{{ $secondaryLogo.RelPermalink }}"

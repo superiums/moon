@@ -107,7 +107,7 @@ Per essere il più flessibili possibile, è necessario creare un file di configu
 Il file predefinito può essere utilizzato come modello per creare lingue aggiuntive o rinominato se desideri creare il tuo sito web in una lingua diversa dall'inglese. Basta nominare il file utilizzando il formato "lingue.[language-code].toml".
 
 {{< alert >}}
-**Nota:** assicurati che il parametro `defaultContentLanguage` nella [configurazione del sito](#configurazioni-del-sito) corrisponda al codice della lingua nel nome del file di configurazione della lingua.  
+**Nota:** assicurati che il parametro `defaultContentLanguage` nella [configurazione del sito](#configurazioni-del-sito) corrisponda al codice della lingua nel nome del file di configurazione della lingua.
 {{< /alert >}}
 
 #### Globale

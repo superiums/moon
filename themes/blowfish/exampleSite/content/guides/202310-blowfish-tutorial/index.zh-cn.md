@@ -385,8 +385,8 @@ jobs:
 
 ```bash
 git add .
-git commit -m "add github actions workflows"  
-git push  
+git commit -m "add github actions workflows"
+git push
 ```
 
 你的 GitHub 仓库中的 actions 模块，将会显示类似下图的内容。

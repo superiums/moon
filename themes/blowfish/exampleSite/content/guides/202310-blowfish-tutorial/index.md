@@ -105,7 +105,7 @@ hugo server
 ```
 
  Ups… Page not found – right? 
-This was expected, even though you created a website, Hugo doesn’t give any default experience – aka your site doesn’t have any page to show.  
+This was expected, even though you created a website, Hugo doesn’t give any default experience – aka your site doesn’t have any page to show.
 
 Next step, let's install Blowfish using `git submodules` which will make it easier to manage and upgrade to new versions in the future.
  
@@ -383,8 +383,8 @@ The last step is committing your code to GitHub and let the workflows you create
 
 ```bash
 git add .
-git commit -m "add github actions workflows"  
-git push  
+git commit -m "add github actions workflows"
+git push
 ```
 
 If the actions tab for your repo, you should see something like this.

@@ -6,15 +6,15 @@
 [![Blowfish](https://img.shields.io/badge/Hugo--Themes-@Blowfish-blue)](https://themes.gohugo.io/themes/blowfish/)
 ![code-size](https://img.shields.io/github/languages/code-size/nunocoracao/blowfish)
 
-Blowfish 是一个轻量有力的 Hugo 主题。它使用 Tailwind CSS 构建，洁净而富有极简主义，是你网站内容载体的不二之选。  
+Blowfish 是一个轻量有力的 Hugo 主题。它使用 Tailwind CSS 构建，洁净而富有极简主义，是你网站内容载体的不二之选。
 
 ![blowfish screenshot](https://github.com/nunocoracao/blowfish/blob/main/images/screenshot.png?raw=true)
 
 
-🌏 [示例站点](https://blowfish.page/zh-cn/)  
-📑 [主题文档](https://blowfish.page/zh-cn/docs/)  
-💎 [周边商店](http://tee.pub/lic/qwSlWVBL5zc)  
-🐛 [Bug 问题报告](https://github.com/nunocoracao/blowfish/issues)  
+🌏 [示例站点](https://blowfish.page/zh-cn/)
+📑 [主题文档](https://blowfish.page/zh-cn/docs/)
+💎 [周边商店](http://tee.pub/lic/qwSlWVBL5zc)
+🐛 [Bug 问题报告](https://github.com/nunocoracao/blowfish/issues)
 💡 [问答和功能需求](https://github.com/nunocoracao/blowfish/discussions)
 
 
@@ -159,7 +159,7 @@ blowfish-tools new mynewsite
 
 Blowfish 将会持续进化。我打算不断增加功能，并按需进行修改。
 
-如有任何问题或对新功能的建议，请随时联系我。  
+如有任何问题或对新功能的建议，请随时联系我。
 
 - 🐛 **Bug 问题报告** 使用 [GitHub Issues](https://github.com/nunocoracao/blowfish/issues)
 - 💡 **发表关于新功能的想法：** 在 [GitHub Discussions](https://github.com/nunocoracao/blowfish/discussions) 发起讨论
