@@ -2,6 +2,7 @@
 title: "独印普巴金刚修持仪轨"
 date: 2026-08-18T14:20:09+08:00
 layout: "reveal"
+featureimage: "img/pubajg.png"
 ---
 
 <!-- .slide: class="title-slide" -->
