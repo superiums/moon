@@ -91,14 +91,18 @@ function generateDirName(seed, index) {
       await fs.access(dir);
     } catch {
       await fs.mkdir(dir);
-  
+    
 
     console.log(i, user.title, dir);
     await fs.writeFile(dir + "/index.md", userMDFile);
     for (const lang of targetLangs) {
       await fs.writeFile(dir + `/index.${lang}.md`, userMDFile);
     }
-    await page.goto(user.url, { waitUntil: "networkidle2", timeout: 30000 });
+    try {
+      await page.goto(user.url, { waitUntil: "load", timeout: 30000 });
+    } catch (err) {
+      console.warn(`  warning: ${user.url} did not finish loading (${err.message}); taking screenshot anyway`);
+    }
     await new Promise(resolve => setTimeout(resolve, 2000));
     await page.screenshot({ path: dir + "/feature.webp", type: "webp", quality: 50 });
     }
