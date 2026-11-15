@@ -1,5 +1,6 @@
 ---
 title: "Multiple Authors"
+featureimage: "images/v3/multiple-authors.png"
 weight: 8
 draft: false
 description: "Configure multiple authors for your articles."
@@ -16,7 +17,7 @@ showAuthorsBadges : false
 
 Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature. 
 
-To keep everything backwards compatible, this feature only allows the definition of extra authors and does not change in any way the previous author functionality which is used via config files.
+To keep everything backwards compatible, this feature only allows the definition of extra authors and does not change in any way the previous author functionality which is used via config files.  
 
 
 ## Create Authors

@@ -105,7 +105,7 @@ hugo server
 ```
 
  Ups… Page not found – right? 
-This was expected, even though you created a website, Hugo doesn’t give any default experience – aka your site doesn’t have any page to show.
+This was expected, even though you created a website, Hugo doesn’t give any default experience – aka your site doesn’t have any page to show.  
 
 Next step, let's install Blowfish using `git submodules` which will make it easier to manage and upgrade to new versions in the future.
  
@@ -262,10 +262,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nisl, vulput
 You can create additional articles to see what your site will look like once there is content in it. Your site should look like the images below. The main page shows the recent articles, each article is connected through others automatically via related section, you have tag aggregation, and full-text search. 
 
 {{< gallery >}}
-  <img src="img/blowfishrecent.png" class="grid-w50" />
-  <img src="img/article.png" class="grid-w50" />
-  <img src="img/search.png" class="grid-w50" />
-  <img src="img/tag.png" class="grid-w50" />
+  <img alt="" src="img/blowfishrecent.png" class="grid-w50" />
+  <img alt="" src="img/article.png" class="grid-w50" />
+  <img alt="" src="img/search.png" class="grid-w50" />
+  <img alt="" src="img/tag.png" class="grid-w50" />
 {{< /gallery >}}
 
 
@@ -383,8 +383,8 @@ The last step is committing your code to GitHub and let the workflows you create
 
 ```bash
 git add .
-git commit -m "add github actions workflows"
-git push
+git commit -m "add github actions workflows"  
+git push  
 ```
 
 If the actions tab for your repo, you should see something like this.
